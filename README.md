@@ -4,11 +4,11 @@ This is a fun simulation of the dice mini game in _Rome: Pathway to Power_, a ga
 
 1. Bet 4.
 2. Roll dice.
-3. If roll is a 6, win 14 (net win of 10).
-4. If roll is 4 or 5, win 4 (net win of 0).
-5. If roll is 1, 2, or 3, lose.
+    * If roll is a 6, win 14 (net win of 10).
+    * If roll is 4 or 5, win 4 (net win of 0).
+    * If roll is 1, 2, or 3, lose.
 
-The expected value is (⅙ × 10) + (⅓ × 0) + (½ × -4) = -⅓. Obviously, the players will lose the money very fast. So, this program sets up a nihilstic tournament that tracks how long the players survive. The player to survive the longest wins.
+The expected value is (⅙ × 10) + (⅓ × 0) + (½ × -4) = -⅓. Obviously, the players will lose their money very fast. So, this program sets up a nihilstic tournament that tracks how long the players survive. Each player is forced to play until they run out of money. The player to survive the longest wins.
 
 # Usage
 
@@ -22,7 +22,7 @@ Geordi
 Beverly
 ```
 
-Then execute `rome-dice playes.txt` and watch the fun begin.
+Then execute `rome-dice players.txt` and watch the fun begin.
 
 # Future Work
 
